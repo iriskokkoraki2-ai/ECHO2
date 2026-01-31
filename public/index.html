@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHO2 - Echo Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔊 ECHO2</h1>
+            <p class="subtitle">Your message will echo back to you</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <textarea 
+                    id="messageInput" 
+                    placeholder="Type your message here..."
+                    rows="5"
+                ></textarea>
+                <button id="echoButton" class="btn-primary">Echo Message</button>
+            </div>
+            
+            <div class="output-section" id="outputSection">
+                <h2>Echo Response:</h2>
+                <div class="response-box" id="responseBox">
+                    <p class="placeholder">Your echoed message will appear here...</p>
+                </div>
+                <p class="timestamp" id="timestamp"></p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Built with ❤️ on Replit</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
